@@ -3,11 +3,9 @@ import { LINKS, ASSET_PREFIX } from '../lib/links';
 import Nav from '../components/Nav';
 import Accordion from '../components/Accordion';
 
-function Kicker({ num, label, tone = 'light' }: { num: string; label: string; tone?: 'light' | 'dark' }) {
+function SectionLabel({ label, tone = 'light' }: { label: string; tone?: 'light' | 'dark' }) {
   return (
-    <span className={`kicker ${tone === 'dark' ? 'on-dark' : ''}`}>
-      <span className="kicker-num">{num}</span>
-      <span className="kicker-rule" aria-hidden />
+    <span className={`section-label ${tone === 'dark' ? 'on-dark' : ''}`}>
       <span>{label}</span>
     </span>
   );
@@ -24,8 +22,7 @@ export default function Home() {
           <div className="container">
             <div className="hero-grid">
               <div>
-                <Kicker num="01" label="Exit Advisory  /  Colorado" />
-                <h1 className="hero-headline" style={{ marginTop: 24, maxWidth: 760, fontSize: 76, lineHeight: 1.02 }}>{copy.hero.headline}</h1>
+                <h1 className="hero-headline" style={{ maxWidth: 760, fontSize: 76, lineHeight: 1.02 }}>{copy.hero.headline}</h1>
                 <p style={{ marginTop: 28, maxWidth: 560, color: 'var(--slate-body)', fontSize: 18, lineHeight: 1.55 }}>
                   {copy.hero.subhead}
                 </p>
@@ -96,7 +93,7 @@ export default function Home() {
         {/* 03. THE GAP */}
         <section className="section" id="gap">
           <div className="container">
-            <Kicker num="02" label="The Gap" />
+            <SectionLabel label="The Gap" />
             <div className="gap-grid" style={{ marginTop: 48 }}>
               <div>
                 <h2 style={{ maxWidth: 640 }}>{copy.gap.headline}</h2>
@@ -140,7 +137,7 @@ export default function Home() {
         {/* 04. HOW SLATE IS DIFFERENT (dark) */}
         <section className="section dark" id="different">
           <div className="container">
-            <Kicker num="03" label="How Slate Is Different" tone="dark" />
+            <SectionLabel label="How Slate Is Different" tone="dark" />
             <h2 style={{ marginTop: 32, maxWidth: 920 }}>{copy.different.headline}</h2>
             <div className="diff-intro-grid">
               <div>
@@ -170,7 +167,7 @@ export default function Home() {
         {/* 05. OFFERS */}
         <section className="section" id="offers">
           <div className="container">
-            <Kicker num="04" label="Three Ways To Work With Me" />
+            <SectionLabel label="Three Ways To Work With Me" />
             <h2 style={{ marginTop: 32, maxWidth: 880 }}>{copy.offers.headline}</h2>
             <div className="offers-grid">
               {copy.offers.cards.map((card, i) => {
@@ -225,7 +222,7 @@ export default function Home() {
         {/* 06. HOW IT WORKS / PROCESS */}
         <section className="section accent-soft" id="how-it-works">
           <div className="container">
-            <Kicker num="05" label="The Engagement" />
+            <SectionLabel label="The Engagement" />
             <div className="process-grid" style={{ marginTop: 32 }}>
               <div className="process-left">
                 <h2>{copy.process.headline}</h2>
@@ -249,7 +246,7 @@ export default function Home() {
         {/* 07. ABOUT JIM */}
         <section className="section" id="about">
           <div className="container">
-            <Kicker num="06" label="About Jim" />
+            <SectionLabel label="About Jim" />
             <div className="about-grid" style={{ marginTop: 32 }}>
               <div className="about-left">
                 <div style={{ aspectRatio: '4 / 5', position: 'relative', overflow: 'hidden', border: '1px solid var(--slate-rule)' }}>
@@ -285,7 +282,7 @@ export default function Home() {
         {/* 08. FAQ */}
         <section className="section alt" id="faq">
           <div className="container">
-            <Kicker num="07" label="Frequently Asked Questions" />
+            <SectionLabel label="Frequently Asked Questions" />
             <div className="faq-grid" style={{ marginTop: 32 }}>
               <div className="faq-left">
                 <h2>{copy.faq.headline}</h2>
@@ -300,7 +297,7 @@ export default function Home() {
         {/* 09. FINAL CTA (dark) */}
         <section className="section dark" id="final-cta" style={{ padding: '160px 0' }}>
           <div className="container" style={{ textAlign: 'center' }}>
-            <Kicker num="08" label="The Next Move" tone="dark" />
+            <SectionLabel label="The Next Move" tone="dark" />
             <h2 style={{ marginTop: 32, fontSize: 56, maxWidth: 920, marginLeft: 'auto', marginRight: 'auto' }} className="final-headline">
               {copy.finalCta.headline}
             </h2>
