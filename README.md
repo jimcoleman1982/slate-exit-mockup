@@ -37,7 +37,7 @@ When done:
 ```bash
 git add -A
 git commit -m "describe the change"
-git push origin source
+git push origin main
 ```
 
 The GitHub Action builds and deploys automatically.
