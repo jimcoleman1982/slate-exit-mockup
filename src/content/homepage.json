@@ -1,0 +1,207 @@
+{
+  "nav": {
+    "items": [
+      "How It Works",
+      "About Jim",
+      "The Webinar",
+      "The Intensive"
+    ],
+    "cta": "Book a Free Exit Strategy Call"
+  },
+  "hero": {
+    "headline": "Let's get your business ready to sell for more.",
+    "subhead": "I partner with owners of $2M to $10M local service businesses to grow value and prepare a premium exit.",
+    "primaryCta": "Book a Free Exit Strategy Call",
+    "secondaryCta": "Watch the Webinar"
+  },
+  "trustBar": {
+    "lead": "Built for $2M to $10M local service businesses.",
+    "industries": [
+      "HVAC",
+      "Plumbing",
+      "Electrical",
+      "Pest Control",
+      "Landscaping",
+      "Roofing",
+      "Restoration",
+      "Senior Care",
+      "Auto Repair",
+      "Light Manufacturing",
+      "Specialized Construction"
+    ]
+  },
+  "gap": {
+    "headline": "Roughly 80% of small businesses listed for sale never sell. The ones that do often sell for half of what they could.",
+    "body1": "Buyers do not pay for what your business is today. They pay for what it will keep earning after you walk out the door.",
+    "bullets": [
+      "If your books are messy, you take a discount.",
+      "If your business runs on you, you take a discount.",
+      "If your top customer is more than 10% of revenue, you take a discount.",
+      "If your foreman could quit tomorrow and tank the company, you take a discount."
+    ],
+    "body2": "The discount is not small. The same business, with the same customers and the same revenue, can sell for one of two prices: $1 million if it's run on a whiteboard, or $2.2 million if it's been prepared properly.",
+    "mathLeft": {
+      "sde": "$400,000 SDE",
+      "mult": "2.5 multiple",
+      "total": "$1,000,000",
+      "label": "Run on a whiteboard"
+    },
+    "mathRight": {
+      "sde": "$550,000 SDE",
+      "mult": "4.0 multiple",
+      "total": "$2,200,000",
+      "label": "Prepared properly"
+    },
+    "mathDiff": "The difference is $1.2 million. Most owners leave it on the table."
+  },
+  "different": {
+    "headline": "I am not a broker. I am not a consultant. I am your partner with skin in the game.",
+    "intro": "Brokers list your business and take 10% whether they grew it or not. Consultants charge retainers for advice they don't have to implement. Both of them get paid even if you don't.\n\nI do this differently. Here is what changes when you work with me.",
+    "pillars": [
+      {
+        "kicker": "Principal, not broker.",
+        "heading": "I partner with you for equity on the growth. I'm not a middleman.",
+        "body": "I'm not taking a piece of what you've already built. My equity only earns on the growth we create together. When the business sells, I sell my interest alongside you. You pay zero commission."
+      },
+      {
+        "kicker": "Baseline-Capture math.",
+        "heading": "You always net more with me than with a broker.",
+        "body": "My Baseline is set at 90% of your business's current value. That is what you would have netted after a traditional 10% broker commission. I only share in the growth above that line. The math puts more money in your pocket than a broker would, and you get a better business on top of it."
+      },
+      {
+        "kicker": "We build before we sell.",
+        "heading": "I do the work. You run the business.",
+        "body": "I clean the books, help you document the SOPs, fix the pricing, and convert your business from an SDE-valued job to an EBITDA-valued asset. Then I bring you a private network of pre-vetted buyers. There is a defined safety net at Month 24, so you are never trapped if we haven't sold yet."
+      }
+    ]
+  },
+  "offers": {
+    "headline": "Three ways to work with me. Pick the one that fits where you are.",
+    "cards": [
+      {
+        "name": "The Exit-Ready Webinar",
+        "price": "$197",
+        "subtitle": "The 90-minute playbook every owner should watch before they sell.",
+        "body": "I show you exactly how buyers think, what they pay for, and how to grow your value 50% to 100% over 24 months. You get the full blueprint, the specific value-creation tactics that move multiples, and the actual math behind every claim on this page. No pitch at the end. You leave with a framework you can run yourself if you want to.",
+        "cta": "Reserve Your Seat"
+      },
+      {
+        "name": "The In-Person Exit Readiness Intensive",
+        "price": null,
+        "subtitle": "A custom strategy session that becomes your 24-month exit plan.",
+        "body": "This is where we take everything from the webinar and apply it specifically to your business. A half or full-day in-person deep-dive, fully customized to you. You walk away with your true SDE, a defensible valuation range, your top three deal-killers, and a written 24-month action plan you own forever. If you decide to upgrade to a Partnership within 30 days, the entire fee credits back toward your engagement. Pricing is tiered by your business size.",
+        "cta": "Inquire About the Intensive"
+      },
+      {
+        "name": "The Slate Partnership",
+        "price": "By invitation",
+        "subtitle": "A 12 to 24-month partnership where we both make money the same way.",
+        "body": "I take a monthly advisory fee while we work together (heavier in the first three months while I'm building the foundation, lighter for the rest of the engagement) and I share in the growth we create above your Baseline. Your existing value is 100% yours. I only earn equity on what we build together. If we don't sell by Month 24, you have a defined exit ramp so you're never trapped. I take 1 to 2 partners at a time.",
+        "cta": "See If You Qualify"
+      }
+    ]
+  },
+  "process": {
+    "headline": "How a Slate Partnership works.",
+    "subhead": "Five phases over 12 to 24 months. I do the work. You stay in control. We share only in what we build together.",
+    "steps": [
+      {
+        "title": "Deep Operational Assessment.",
+        "body": "I audit 22 categories of risk and value. Financials, operations, team, customers, contracts, equipment, the works. We find every dollar that's hiding."
+      },
+      {
+        "title": "Mock Due Diligence.",
+        "body": "Before any buyer sees you, I run full diligence internally. We rebuild your books, normalize your SDE, and convert to EBITDA-grade presentation."
+      },
+      {
+        "title": "The Profit Wedge.",
+        "body": "We push margins up two ways. First, we cut permanent costs by restructuring high-cost roles and renegotiating contracts where it makes sense. Second, we pull 7 specific revenue levers. This is where the multiple expands."
+      },
+      {
+        "title": "Buyer-Ready Packaging.",
+        "body": "I build the CIM, the data room, the growth narrative, the KPI dashboard, the investment-highlights deck. Your business looks like a professionally packaged acquisition."
+      },
+      {
+        "title": "Quarterbacking the Sale.",
+        "body": "I bring your deal to my private network of search funds, independent sponsors, SBA-backed operators, and HNW buyers. I sit on your side of the table through diligence, LOI, and close."
+      }
+    ]
+  },
+  "about": {
+    "heading": "Jim Coleman, Founder of Slate Exit Advisory",
+    "subhead": "From detective to exit partner for local business owners.",
+    "paragraphs": [
+      "I never planned on helping business owners prepare for the biggest financial event of their lives. My career actually started in a very different world, as a detective working crimes against children.",
+      "That work taught me how to see what others overlook, how to ask the questions no one else thinks to ask, and how to uncover the truth inside complicated situations. Years later, I realized those same skills were exactly what business owners needed when preparing their companies for a sale.",
+      "Over time, I sat on every side of the deal table. I built and sold businesses of my own, and the one I still own (over 80 employees) I have worked myself out of. I oversee it a couple of hours a week. The rest runs without me, because I built the systems and installed the leadership to make that possible. That is exactly the work I do for the owners I partner with now. I also ran operations for a private equity fund, helped manage acquisitions, conducted deep due diligence, and improved companies from the inside. This experience gave me a clear understanding of what buyers care about, where value is gained or lost, and what it takes to present a business in a way that inspires confidence.",
+      "What I saw again and again was that most local business owners do not leave money on the table because their business is weak. They leave money on the table because their business is not prepared in the way buyers expect. And most brokers do not fix any of that. They list the business as it stands, collect a fee, and move on.",
+      "So I decided to do things differently.",
+      "Today, I work with local business owners who want a clear, structured way to increase value, reduce chaos, and prepare their business for a smooth and profitable exit. My role is simple. I help you clean up your numbers, de-risk your operations, build buyer grade documentation, and guide you through every step from preparation to closing.",
+      "On a personal note, my wife Velvie and I live in the Denver area, where we raised a family of five children, most of whom are adults now. We were a foster family for many years and are also an adoptive family. That experience shaped the way I work with people. I lead with clarity, patience, and genuine care, and I bring that same approach to every business owner I serve.",
+      "If you want clarity, confidence, and someone in your corner who has truly been on all sides of a deal, I would love to learn more about your business and your exit goals."
+    ],
+    "linkedin": "Connect with Jim on LinkedIn"
+  },
+  "faq": {
+    "headline": "Questions you're probably asking right now.",
+    "items": [
+      {
+        "q": "How does your compensation actually work?",
+        "a": "I take a monthly advisory fee during the engagement (heavier in the early build phase, lighter later) and I share in the growth we create above your Baseline. Your Baseline is 90% of today's value, which is what you would have netted after a broker's 10% commission anyway. I only earn equity on the growth above that line. The full structure and exact numbers are walked through in detail during the in-person intensive."
+      },
+      {
+        "q": "I don't want to share equity in my life's work.",
+        "a": "You keep 100% of your Baseline, which is 90% of today's value. Forever. I only participate in the new value we create together over the next 12 to 24 months. Your existing equity stays yours."
+      },
+      {
+        "q": "What if I decide not to sell?",
+        "a": "You end up with a more valuable, more systematized business that runs without you. There is a contractual safety net at Month 24 that gives me a defined path to redeem my equity over time, paid from the new cash flow we grew together. You keep the business. You pay me from money the business now generates that it did not generate before."
+      },
+      {
+        "q": "This sounds complicated. Can we just pay you a fee?",
+        "a": "It's actually one integrated agreement. My attorney has standard template documents. The 83(b) election is a one-page IRS filing. Your CPA will appreciate the long-term capital gains structure. The economics look complex on a slide. The paperwork is clean."
+      },
+      {
+        "q": "How is this different from a business broker?",
+        "a": "Brokers take a 10% commission whether they grew your business or not. They list it, hope a buyer shows up, and get paid even if you don't. I partner with you, earn equity, do the operational work to raise your business's value, and only earn on the growth we create together. I am a partner. They are a listing agent."
+      },
+      {
+        "q": "Why don't you publish your prices?",
+        "a": "Pricing for the deeper engagements depends on your business size, your timeline, and the scope of work. The numbers also need to be explained in context, so they actually make sense to you. That's why I walk through the full pricing architecture during the in-person intensive or on a separate private call."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to find out what your business is actually worth?",
+    "subhead": "Book a free 45-minute Exit Strategy Call. I won't pitch you. I'll walk through where your business stands today, what a premium exit would take, and whether Slate is the right fit. We can break down the full pricing, structure, and equity model on the same call.",
+    "primaryCta": "Book My Free Exit Strategy Call",
+    "secondaryCta": "Watch the Webinar"
+  },
+  "footer": {
+    "tagline": "Slate Exit Advisory. Built for local business owners.",
+    "col1Title": "The Approach",
+    "col1": [
+      "How It Works",
+      "About Jim",
+      "The Webinar",
+      "The Intensive",
+      "The Partnership"
+    ],
+    "col2Title": "Resources",
+    "col2": [
+      "Read the Blog",
+      "Subscribe",
+      "LinkedIn"
+    ],
+    "col3Title": "Contact",
+    "col3": [
+      "jim@slateexit.com",
+      "Denver, Colorado"
+    ],
+    "bottom": "© 2026 Slate Exit Advisory. All rights reserved.",
+    "bottomLinks": [
+      "Privacy",
+      "Terms"
+    ]
+  }
+}
