@@ -18,7 +18,7 @@ export default function Home() {
 
       <main id="top">
         {/* 01. HERO */}
-        <section className="section" style={{ paddingTop: 160 }}>
+        <section className="section hero-section">
           <div className="container">
             <div className="hero-grid">
               <div>
@@ -377,6 +377,12 @@ export default function Home() {
 
       {/* Page-specific styles (grid layouts and responsive rules) */}
       <style>{`
+        /* Hero section: extra top padding to clear fixed nav */
+        .hero-section { padding-top: 160px; }
+        @media (max-width: 768px) {
+          .hero-section { padding-top: 112px; }
+        }
+
         /* Hero */
         .hero-grid {
           display: grid;
