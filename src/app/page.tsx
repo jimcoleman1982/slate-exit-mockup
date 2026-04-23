@@ -252,8 +252,8 @@ export default function Home() {
                 <div style={{ aspectRatio: '4 / 5', position: 'relative', overflow: 'hidden', border: '1px solid var(--slate-rule)' }}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={`${ASSET_PREFIX}/jim-about.jpg`}
-                    alt="Jim Coleman"
+                    src={`${ASSET_PREFIX}/jim-about.jpg?v=2`}
+                    alt="Jim Coleman with a business owner outside a shop"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
                   />
                 </div>
