@@ -183,8 +183,8 @@ function Story() {
 
           <p>
             I'm Jim Coleman. I live on the Front Range. I've bought and sold
-            businesses for a living. I run an 80-person operations company
-            called xFusion. I've sat with owners who walked out of closings
+            businesses for a living. I founded and oversee an 80-person operations company
+            called xFusion (that I've worked my way out of the day-to-day). I've sat with owners who walked out of closings
             with enough money to actually retire. I've also watched owners
             lose hundreds of thousands of dollars in that same room, because
             they didn't know what the buyer was looking at.
