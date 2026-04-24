@@ -195,7 +195,7 @@ function Story() {
           <p>
             I want you to walk out of that room. With enough to retire. With
             enough for your wife. With enough to finally say yes when your
-            grandkids ask when you're coming to see them. With the crew you
+            grandkids ask if you're coming to see them. With the crew you
             built still standing when the new owner takes over.
           </p>
           <p>
@@ -307,7 +307,7 @@ function Offer() {
           <div className="why-grid">
             <div className="why-item">
               <div className="num-big">01</div>
-              <h4>I own an operations company.</h4>
+              <h4>I founded an operations company.</h4>
               <p>xFusion. Built with 80-plus people who run operations for businesses every day. I don't just advise on this stuff. My team actually does it.</p>
             </div>
             <div className="why-item">
@@ -318,7 +318,7 @@ function Offer() {
             <div className="why-item">
               <div className="num-big">03</div>
               <h4>I'm not a broker.</h4>
-              <p>I don't put up a sign. I don't take 10%. When I work with owners past this call, I put real money of my own on the line. I only win when you win.</p>
+              <p>I don't put up a sign. I don't take 10%. When I work with owners past this call, I put my all on the line. I only win when you win.</p>
             </div>
           </div>
         </div>
@@ -366,7 +366,7 @@ function Close() {
             great or terrible. This call is one hour, one-on-one, and costs
             you nothing. Not because I'm in the business of free calls.
             Because I only take on a handful of owners at a time. This call is
-            how I figure out if yours is one of them.
+            how I learn if we're a good fit for each other.
           </p>
 
           <div className="guarantee">
@@ -394,7 +394,7 @@ const FAQ_ITEMS = [
   { q: "Why is it free?", a: "I only work with a handful of owners at a time. This call is how I figure out if yours is a fit. Even owners who aren't a fit walk away with real answers. No pitch either way." },
   { q: "Is this a sales call?", a: "No. That's the No-Pitch Promise. I will not walk you through a deck. I will not ask for your credit card. If any of that starts to happen, we end the call and you keep the advice." },
   { q: "Phone or in person?", a: "Denver Front Range owners get the choice. I can come to you, you can come to my office, or we do it by phone. Outside the Front Range: phone or video. In-person is a Denver perk." },
-  { q: "Do I need to prepare anything?", a: "Nothing required. If you have your last twelve months of P&L and tax returns handy, we can get more specific on your number. If you don't, we work with what you know off the top of your head and still get you useful answers." },
+  { q: "Do I need to prepare anything?", a: "Nothing required. If you have your last three years of P&L's and tax returns handy, we can get more specific on your number. If you don't, we work with what you know off the top of your head and still get you useful answers." },
   { q: "How long is it really?", a: "60 minutes. Some calls run shorter when an owner is clearly not a fit. That's still useful information." },
   { q: "Is it confidential?", a: "Yes. I will sign a standard NDA on request. Nothing you share goes anywhere." },
   { q: "What happens after the call?", a: "Nothing automatic. You walk away with your numbers. If you want to talk about working together, you tell me. If you don't, we shake hands and you keep everything we covered." },
