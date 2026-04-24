@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 48" width="360" height="48" role="img" aria-label="Slate Exit Advisory">
+  <g transform="translate(16 24) rotate(45)">
+    <rect x="-10" y="-10" width="20" height="20" fill="#1F2A33"></rect>
+    <rect x="-3.6" y="-3.6" width="7.2" height="7.2" fill="#2F4A3A"></rect>
+  </g>
+  <text x="44" y="30" font-family="&#39;Source Serif 4&#39;, Georgia, serif" font-size="22" font-weight="500" fill="#1F2A33" letter-spacing="0.2">Slate Exit Advisory</text>
+</svg>

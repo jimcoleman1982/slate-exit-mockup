@@ -1,0 +1,269 @@
+/* =========================================================================
+   Slate Exit Advisory — Colors & Type
+   Primary tokens used across the entire design system.
+   ========================================================================= */
+
+/* ------- Google Fonts (pinned to Source Serif 4 + IBM Plex families) ----- */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ---------- Color: Surfaces (warm cream family) -------------------- */
+  --color-bg-cream:       #EEE8DC;   /* primary surface */
+  --color-bg-cream-alt:   #E5DDCC;   /* secondary bands, footer light */
+  --color-bg-accent-soft: #E0D9C4;   /* callout fills, process section  */
+
+  /* ---------- Color: Ink / Dark surfaces ----------------------------- */
+  --color-slate-deep:     #1F2A33;   /* deep slate ink + inverse bg */
+  --color-text-body:      #3E4954;   /* default body text on cream  */
+  --color-text-muted:     #6B7380;   /* muted labels, captions       */
+
+  /* ---------- Color: Accent (forest green) --------------------------- */
+  --color-accent:         #2F4A3A;   /* primary accent / buttons / links */
+  --color-accent-hover:   #253B2E;   /* accent hover */
+  --color-on-accent:      #F4EFE2;   /* text on accent / on dark-inverse */
+
+  /* ---------- Color: Rules (hairlines) ------------------------------- */
+  --rule-on-light:        rgba(31, 42, 51, 0.14);
+  --rule-on-dark:         rgba(238, 232, 220, 0.14);
+
+  /* ---------- Semantic foreground / background ----------------------- */
+  --bg:                   var(--color-bg-cream);
+  --bg-alt:               var(--color-bg-cream-alt);
+  --bg-accent:            var(--color-bg-accent-soft);
+  --bg-inverse:           var(--color-slate-deep);
+
+  --fg:                   var(--color-text-body);
+  --fg-strong:            var(--color-slate-deep);
+  --fg-muted:             var(--color-text-muted);
+  --fg-on-inverse:        var(--color-on-accent);
+
+  --accent:               var(--color-accent);
+  --accent-hover:         var(--color-accent-hover);
+  --on-accent:            var(--color-on-accent);
+
+  --rule:                 var(--rule-on-light);
+  --rule-inverse:         var(--rule-on-dark);
+
+  /* ---------- Typography: Families ----------------------------------- */
+  --font-serif:   'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans:    'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono:    'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  /* ---------- Typography: Scale (desktop) ---------------------------- */
+  --fs-h1:        60px;
+  --fs-h2:        44px;
+  --fs-h3:        26px;
+  --fs-body:      17px;
+  --fs-small:     14px;
+  --fs-kicker:    11px;   /* uppercase mono, tracking 0.22em */
+  --fs-price:     56px;   /* featured offer card price */
+
+  --lh-tight:     1.08;
+  --lh-snug:      1.25;
+  --lh-body:      1.55;
+  --lh-loose:     1.7;
+
+  --tracking-kicker: 0.22em;
+  --tracking-label:  0.08em;
+
+  /* ---------- Spacing (8-point base, tight institutional rhythm) ----- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+  --space-10: 120px;          /* section padding, desktop */
+  --space-10-mobile: 60px;    /* section padding, mobile  */
+
+  /* ---------- Layout ------------------------------------------------- */
+  --container-max:  1280px;
+  --gutter-desktop: 48px;
+  --gutter-mobile:  24px;
+
+  --kicker-rule-width: 48px;
+
+  /* ---------- Radii (tight, institutional) --------------------------- */
+  --radius-sm: 2px;
+  --radius-md: 3px;
+
+  /* ---------- Motion ------------------------------------------------- */
+  --ease-standard: cubic-bezier(0.2, 0.6, 0.2, 1);
+  --dur-fast:      140ms;
+  --dur-base:      200ms;
+  --dur-slow:      320ms;
+}
+
+/* ------- Mobile type scale (<= 720px) -------------------------------- */
+@media (max-width: 720px) {
+  :root {
+    --fs-h1:     38px;
+    --fs-h2:     28px;
+    --fs-h3:     20px;
+    --fs-body:   15.5px;
+  }
+}
+
+/* =========================================================================
+   Semantic element defaults — apply with `.slate-type` on an ancestor,
+   or scope globally if this CSS is the only stylesheet.
+   ========================================================================= */
+
+.slate-type,
+.slate-type * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slate-type {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.slate-type h1,
+.slate-type h2 {
+  text-wrap: balance;
+}
+
+.slate-type h1 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: var(--fs-h1);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.015em;
+  color: var(--fg-strong);
+  margin: 0 0 var(--space-5) 0;
+}
+
+.slate-type h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: var(--fs-h2);
+  line-height: var(--lh-snug);
+  letter-spacing: -0.01em;
+  color: var(--fg-strong);
+  margin: 0 0 var(--space-5) 0;
+}
+
+.slate-type h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--fs-h3);
+  line-height: 1.3;
+  color: var(--fg-strong);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.slate-type p {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+  margin: 0 0 var(--space-4) 0;
+}
+
+/* Serif italic pull-quote / subheading beneath h2 */
+.slate-type .pullquote,
+.slate-type blockquote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--fg-strong);
+  border: 0;
+  padding: 0;
+  margin: 0 0 var(--space-5) 0;
+}
+
+/* Monospace kicker — the signature section opener
+   <div class="kicker"><span class="kicker-num">01</span> label</div>
+*/
+.slate-type .kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--fs-kicker);
+  letter-spacing: var(--tracking-kicker);
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  margin: 0 0 var(--space-5) 0;
+}
+.slate-type .kicker .kicker-num {
+  color: var(--accent);
+}
+.slate-type .kicker::after {
+  content: "";
+  display: inline-block;
+  width: var(--kicker-rule-width);
+  height: 1px;
+  background: var(--accent);
+  margin-left: var(--space-2);
+}
+
+/* Mono metadata / caption */
+.slate-type .meta,
+.slate-type code,
+.slate-type .mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: var(--tracking-label);
+  color: var(--fg-muted);
+}
+
+/* Buttons — label type only (full button styles live in UI kit) */
+.slate-type button,
+.slate-type .btn {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+}
+
+/* =========================================================================
+   Dark-inverse sections — flip to deep slate with cream text.
+   Apply `.slate-inverse` on a section wrapper.
+   ========================================================================= */
+
+.slate-inverse {
+  background: var(--bg-inverse);
+  color: var(--fg-on-inverse);
+}
+.slate-inverse h1,
+.slate-inverse h2,
+.slate-inverse h3 {
+  color: var(--fg-on-inverse);
+}
+.slate-inverse p,
+.slate-inverse .pullquote {
+  color: var(--fg-on-inverse);
+}
+.slate-inverse .kicker {
+  color: rgba(244, 239, 226, 0.72);
+}
+.slate-inverse .kicker .kicker-num {
+  color: var(--accent);
+}
+.slate-inverse .kicker::after {
+  background: var(--accent);
+}
+.slate-inverse .rule { background: var(--rule-inverse); }
+
+/* =========================================================================
+   Rule (hairline divider)
+   ========================================================================= */
+.slate-type .rule {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+}
